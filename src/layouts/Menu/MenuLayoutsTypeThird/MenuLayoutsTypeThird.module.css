@@ -1,0 +1,36 @@
+.listTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+
+    letter-spacing: -0.55px;
+    color: #18214D;
+}
+
+.listItem {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 220%;
+    letter-spacing: -0.2px;
+    color: #18214D !important;
+    text-decoration: none !important;
+}
+
+.listItem:hover {
+    color: rgba(0%, 0%, 0%, 0.6) !important;
+}
+
+.dropdown div[class*="ant-list-split"] div[class*="ant-list-header"] {
+    border-bottom: none !important;
+}
+
+.menu h4[class*="ant-list-item-meta-title"] {
+    margin-bottom: 0;
+}
+
+.dropdown {
+    width: 100%;
+}
+
