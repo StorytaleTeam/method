@@ -180,7 +180,7 @@ import MenuLayoutsTypeThird from "./layouts/Menu/MenuLayoutsTypeThird/MenuLayout
 function App() {
     return (
         <div >
-          <MenuLayoutsTypeThird/>
+          <MenuLayoutsTypeThird dark={true}/>
         </div>
     );
 }
