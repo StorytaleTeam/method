@@ -241,7 +241,6 @@ class PricingLayoutsTypeEighth extends Component {
         }
 
         this.onLinksClickHandler = this.onLinksClickHandler.bind(this);
-
     }
 
     renderAside() {

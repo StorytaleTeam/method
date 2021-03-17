@@ -3,25 +3,17 @@
     font-weight: 600;
     font-size: 22px;
     line-height: 135%;
-
     letter-spacing: -0.55px;
-
     color: #18214D;
     border-bottom: none;
 }
-
-.price .custom {
-
-}
-
+.price .custom {}
 .price .info {
     display: none;
 }
-
 .price .description {
     display: none;
 }
-
 .price .total {
     display: grid;
 
@@ -32,7 +24,6 @@
     letter-spacing: -2.4px;
     color: #18214D;
 }
-
 .price .total span {
     font-style: normal;
     font-weight: normal;
@@ -41,7 +32,6 @@
     letter-spacing: -0.2px;
     color: #18214D;
 }
-
 .price {
     padding: 35px;
     padding-bottom: 50px;
@@ -50,25 +40,20 @@
     background: #EFF2F6;
     border-radius: 8px;
 }
-
 .price .header {
     min-height: 90px;
     margin-bottom: 30px;
 }
-
 .price li[class*="ant-list-item"] {
     font-weight: 600;
-    color: #000000 !important;
+    color: #000000 ;
 }
-
 .price div[class*="ant-list-header"] {
     visibility: hidden;
 }
-
 .price .link {
     margin-top: 30px;
 }
-
 .price .title {
     position: absolute;
     left: 50%;
@@ -83,6 +68,22 @@
     text-align: center;
     letter-spacing: -0.55px;
     color: #18214D;
+}
+
+/*dark theme*/
+
+.dark.price {
+    background-color: #121B3F;
+}
+
+.dark.price .total,
+.dark.price .total span,
+.dark.price .title {
+    color: #FFFFFF;
+}
+
+.dark.price.custom {
+    border-color: #345DEE;
 }
 
 @media screen and (max-width: 768px) {
