@@ -68,10 +68,8 @@ class PricingLayoutsTypeSecond extends Component {
     }
 
     render() {
-
         return (
             <div>
-
                     <section className={`section ${classes.pricing} ${(this.props.dark) ?  `dark ${classes.dark}` : ''}`}>
                         <div className={classes.wrapper}>
                             <Container>

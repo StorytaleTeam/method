@@ -174,13 +174,15 @@ import HeroLayoutsTypeFifth from "./layouts/HeroLayouts/HeroLayoutsTypeFifth/Her
 import MenuLayoutsTypeFifth from "./layouts/Menu/MenuLayoutsTypeFifth/MenuLayoutsTypeFifth";
 import MenuLayoutsTypeFourth from "./layouts/Menu/MenuLayoutsTypeFourth/MenuLayoutsTypeFourth";
 import MenuLayoutsTypeThird from "./layouts/Menu/MenuLayoutsTypeThird/MenuLayoutsTypeThird";
+import PricingLayoutsTypeEighth from "./layouts/PricingLayouts/PricingLayoutsTypeEighth/PricingLayoutsTypeEighth";
+import PricingLayoutsTypeFourth from "./layouts/PricingLayouts/PricingLayoutsTypeFourth/PricingLayoutsTypeFourth";
 
 /*example*/
 
 function App() {
     return (
         <div >
-          <MenuLayoutsTypeThird dark={true}/>
+            <PricingLayoutsTypeEighth />
         </div>
     );
 }
