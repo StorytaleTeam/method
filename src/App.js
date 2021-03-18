@@ -177,13 +177,14 @@ import MenuLayoutsTypeThird from "./layouts/Menu/MenuLayoutsTypeThird/MenuLayout
 import PricingLayoutsTypeEighth from "./layouts/PricingLayouts/PricingLayoutsTypeEighth/PricingLayoutsTypeEighth";
 import PricingLayoutsTypeFourth from "./layouts/PricingLayouts/PricingLayoutsTypeFourth/PricingLayoutsTypeFourth";
 import BlogLayoutsTypeEighth from "./layouts/Blog/BlogLayoutsTypeEighth/BlogLayoutsTypeEighth";
+import BlogLayoutsTypeNinth from "./layouts/Blog/BlogLayoutsTypeNinth/BlogLayoutsTypeNinth";
 
 /*example*/
 
 function App() {
     return (
         <div >
-            <BlogLayoutsTypeEighth dark={true}/>
+            <BlogLayoutsTypeNinth dark={true}/>
         </div>
     );
 }

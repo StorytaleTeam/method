@@ -9,7 +9,6 @@ import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from
 import SocialsLinks from "../../../components/Socials/Socials";
 import {Google, LinkedIn, Twitter} from "../../../components/Icons/Icons";
 import Oval from "../../../components/Frame/Frame";
-import Card from "../BlogLayoutsTypeSixth/Card/Card";
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -103,7 +102,6 @@ class BlogLayoutsTypeEighth extends Component {
                                                     <Google/>
                                                 </a>
                                             </SocialsLinks>
-
                                         </div>
                                     </Fade>
                                 </Col>
