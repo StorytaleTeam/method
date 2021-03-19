@@ -178,13 +178,18 @@ import PricingLayoutsTypeEighth from "./layouts/PricingLayouts/PricingLayoutsTyp
 import PricingLayoutsTypeFourth from "./layouts/PricingLayouts/PricingLayoutsTypeFourth/PricingLayoutsTypeFourth";
 import BlogLayoutsTypeEighth from "./layouts/Blog/BlogLayoutsTypeEighth/BlogLayoutsTypeEighth";
 import BlogLayoutsTypeNinth from "./layouts/Blog/BlogLayoutsTypeNinth/BlogLayoutsTypeNinth";
+import StatsLayoutsTypeEighth from "./layouts/Stats/StatsLayoutsTypeEighth/StatsLayoutsTypeEighth";
+import StatsLayoutsTypeSecond from "./layouts/Stats/StatsLayoutsTypeSecond/StatsLayoutsTypeSecond";
+import StatsLayoutsTypeNinth from "./layouts/Stats/StatsLayoutsTypeNinth/StatsLayoutsTypeNinth";
+import StatsLayoutsTypeFifth from "./layouts/Stats/StatsLayoutsTypeFifth/StatsLayoutsTypeFifth";
+import StatsLayoutsTypeTenth from "./layouts/Stats/StatsLayoutsTypeTenth/StatsLayoutsTypeTenth";
 
 /*example*/
 
 function App() {
     return (
         <div >
-            <BlogLayoutsTypeNinth dark={true}/>
+            <StatsLayoutsTypeTenth />
         </div>
     );
 }
