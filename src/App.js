@@ -183,13 +183,14 @@ import StatsLayoutsTypeSecond from "./layouts/Stats/StatsLayoutsTypeSecond/Stats
 import StatsLayoutsTypeNinth from "./layouts/Stats/StatsLayoutsTypeNinth/StatsLayoutsTypeNinth";
 import StatsLayoutsTypeFifth from "./layouts/Stats/StatsLayoutsTypeFifth/StatsLayoutsTypeFifth";
 import StatsLayoutsTypeTenth from "./layouts/Stats/StatsLayoutsTypeTenth/StatsLayoutsTypeTenth";
+import StatsLayoutsTypeEleventh from "./layouts/Stats/StatsLayoutsTypeEleventh/StatsLayoutsTypeEleventh";
 
 /*example*/
 
 function App() {
     return (
         <div >
-            <StatsLayoutsTypeTenth />
+            <StatsLayoutsTypeEleventh dark={true}/>
         </div>
     );
 }
