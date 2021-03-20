@@ -185,14 +185,14 @@ import StatsLayoutsTypeFifth from "./layouts/Stats/StatsLayoutsTypeFifth/StatsLa
 import StatsLayoutsTypeTenth from "./layouts/Stats/StatsLayoutsTypeTenth/StatsLayoutsTypeTenth";
 import StatsLayoutsTypeEleventh from "./layouts/Stats/StatsLayoutsTypeEleventh/StatsLayoutsTypeEleventh";
 import StatsLayoutsTypeTwelfth from "./layouts/Stats/StatsLayoutsTypeTwelfth/StatsLayoutsTypeTwelfth";
+import StatsLayoutsTypeThirteenth from "./layouts/Stats/StatsLayoutsTypeThirteenth/StatsLayoutsTypeThirteenth";
 
 /*example*/
 
 function App() {
     return (
         <div >
-            <StatsLayoutsTypeEleventh/>
-            <StatsLayoutsTypeTwelfth />
+            <StatsLayoutsTypeThirteenth/>
         </div>
     );
 }
