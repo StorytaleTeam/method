@@ -995,5 +995,26 @@ function Menu(props) {
     )
 }
 
+function ArrowUp(props) {
+    const fill = props.fill || '#18214D';
 
-export { Alert, Menu, UserBordered, Card, Rotate, Stars, ArrowDropdownDown, VisibilityOff, Stats, Favorite, Plus, Check, Security, StarBorder, Apple, GooglePlay, Remove, TimeLine, Settings, Movie, Image, Kebab, ArrowDropdownUp, ReplyAll, FlightLand, Send, FavoriteBorder, Earth, Update, Explore, Alternate, Chat, Delete, ArrowRight, ChevronUp, Date, ArrowLeft, VisibilityOn, ChevronRight, DeleteForever, Bookmarks, Flight, Reply, Face, IconPlay, RightArrow, MethodLogotype, AppLogo, PlayRing, AppLogoBig, Network, DeleteOutline, SimpleLeftArrow, UserIcon, EmailIcon, SimpleRightArrow, Donut, Support, Location, Bookmark, Email, Assigment, Home, Basket, Extension, Group, AppStore, PlayMarket, Download, Block, Upload, Flash, Camera, Carousel, Dashboard, Clock, Document, Search, User, Twitter, LinkedIn, Google, BluePlaceholder, Star, SimpleLeftArrowCustom, ArrowForward, Lock, Phone, Facebook, Close, ChevronDown, ChevronLeft, Fire, Cart, Nike, FlashRounded, GroupRounded, SocialApple };
+    return (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M12.5925 18.5825L12.5925 7.41249L16.4725 11.2925C16.8625 11.6825 17.5025 11.6825 17.8925 11.2925C18.2825 10.9025 18.2825 10.2725 17.8925 9.88249L12.3025 4.29249C11.9125 3.90249 11.2825 3.90249 10.8925 4.29249L5.2925 9.87249C4.9025 10.2625 4.9025 10.8925 5.2925 11.2825C5.6825 11.6725 6.3125 11.6725 6.7025 11.2825L10.5925 7.41249L10.5925 18.5825C10.5925 19.1325 11.0425 19.5825 11.5925 19.5825C12.1425 19.5825 12.5925 19.1325 12.5925 18.5825Z" fill={fill}/>
+        </svg>
+    )
+}
+
+function ArrowDown(props) {
+    const fill = props.fill || '#18214D';
+
+    return (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M10.5925 5L10.5925 16.17L6.7125 12.29C6.3225 11.9 5.6825 11.9 5.2925 12.29C4.9025 12.68 4.9025 13.31 5.2925 13.7L10.8825 19.29C11.2725 19.68 11.9025 19.68 12.2925 19.29L17.8925 13.71C18.2825 13.32 18.2825 12.69 17.8925 12.3C17.5025 11.91 16.8725 11.91 16.4825 12.3L12.5925 16.17L12.5925 5C12.5925 4.45 12.1425 4 11.5925 4C11.0425 4 10.5925 4.45 10.5925 5Z" fill={fill}/>
+        </svg>
+
+    )
+}
+
+
+export {ArrowUp, ArrowDown, Alert, Menu, UserBordered, Card, Rotate, Stars, ArrowDropdownDown, VisibilityOff, Stats, Favorite, Plus, Check, Security, StarBorder, Apple, GooglePlay, Remove, TimeLine, Settings, Movie, Image, Kebab, ArrowDropdownUp, ReplyAll, FlightLand, Send, FavoriteBorder, Earth, Update, Explore, Alternate, Chat, Delete, ArrowRight, ChevronUp, Date, ArrowLeft, VisibilityOn, ChevronRight, DeleteForever, Bookmarks, Flight, Reply, Face, IconPlay, RightArrow, MethodLogotype, AppLogo, PlayRing, AppLogoBig, Network, DeleteOutline, SimpleLeftArrow, UserIcon, EmailIcon, SimpleRightArrow, Donut, Support, Location, Bookmark, Email, Assigment, Home, Basket, Extension, Group, AppStore, PlayMarket, Download, Block, Upload, Flash, Camera, Carousel, Dashboard, Clock, Document, Search, User, Twitter, LinkedIn, Google, BluePlaceholder, Star, SimpleLeftArrowCustom, ArrowForward, Lock, Phone, Facebook, Close, ChevronDown, ChevronLeft, Fire, Cart, Nike, FlashRounded, GroupRounded, SocialApple };
