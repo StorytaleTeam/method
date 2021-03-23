@@ -29,6 +29,10 @@
     fill: #ffffff !important;
 }
 
+.dark svg path {
+    fill: #FFFFFF;
+}
+
 @media screen and (max-width: 768px) {
     .swiperButtonNext,
     .swiperButtonPrev  {

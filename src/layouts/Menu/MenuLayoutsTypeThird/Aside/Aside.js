@@ -1,6 +1,5 @@
 import React from "react";
 import classes from './Aside.module.css';
-import Button from "../../../../components/Button/Button";
 
 const title = "Order Summary";
 const delivery = "15.00"

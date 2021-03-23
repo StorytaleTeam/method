@@ -81,7 +81,6 @@ class EcommerceLayoutsTypeTwentieth extends Component {
     }
 
     render() {
-
         return (
             <section className={`section ${classes.ecommerce} ${(this.props.dark) ? `dark ${classes.dark}` : ''}`}>
                 <div className={classes.gridWrapper}>

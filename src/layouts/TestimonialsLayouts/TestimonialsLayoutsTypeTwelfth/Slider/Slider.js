@@ -33,7 +33,7 @@ class Slider extends Component {
     render() {
         return (
             <Col className="p-0">
-                <div className={classes.slider}>
+                <div className={`${classes.slider} ${(this.props.dark) ? `${classes.dark}` : ''}`}>
                     <div className={classes.swiperContainer}>
                         <div className={`swiper-wrapper ${classes.swiperWrapper}`}>
                             {this.props.children}

@@ -1,9 +1,8 @@
 import React from "react";
 import classes from "./Header.module.css"
-import {Nav, Navbar, Form, FormControl} from "react-bootstrap";
-import {MethodLogotype, FavoriteBorder, User, Cart, UserBordered, Menu } from "../../../../components/Icons/Icons";
-import Button from "../../../../components/Button/Button";
-import Socials from "../Socials/Socials";
+import {Navbar} from "react-bootstrap";
+import {MethodLogotype, FavoriteBorder, User, Cart, Menu } from "../../../../components/Icons/Icons";
+
 import { Input, Badge } from 'antd';
 const { Search } = Input;
 

@@ -55,7 +55,7 @@ const data = {
                             { x: 40, y: 88 }]
                     }
                 ],
-        },
+        }
 };
 
 class ScatterChart extends Component {
@@ -75,6 +75,11 @@ class ScatterChart extends Component {
                                 padding: 30,
                                 boxWidth: 8,
                                 usePointStyle: true,
+                            }
+                        },
+                        plugins: {
+                            datalabels: {
+                                display: false,
                             }
                         }
                     }}

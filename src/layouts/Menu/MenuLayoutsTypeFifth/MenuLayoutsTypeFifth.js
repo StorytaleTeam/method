@@ -2,9 +2,7 @@ import React, {Component} from "react";
 import {Container, Row, Col} from "reactstrap";
 
 import classes from "./MenuLayoutsTypeFifth.module.css"
-import {Fade} from "react-awesome-reveal";
 import Header from "./Header/Header";
-
 
 class  MenuLayoutsTypeFifth extends Component {
 

@@ -4,14 +4,12 @@ import {Drawer} from 'antd';
 
 import classes from "./MenuLayoutsTypeSecond.module.css"
 import placeholder from "../../../img/placeholder-gray.png";
-import {Fade} from "react-awesome-reveal";
 import Product from "./Product/Product";
 import Aside from "./Aside/Aside";
 import Header from "./Header/Header";
 import {UserBordered} from "../../../components/Icons/Icons";
 import {Form, FormControl} from "react-bootstrap";
 import Socials from "./Socials/Socials";
-
 
 class MenuLayoutsTypeSecond extends Component {
 
@@ -142,8 +140,6 @@ class MenuLayoutsTypeSecond extends Component {
             visibleMenu: false
         });
     }
-
-
 
     render() {
 

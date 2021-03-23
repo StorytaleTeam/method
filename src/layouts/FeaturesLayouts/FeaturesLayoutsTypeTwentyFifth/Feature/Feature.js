@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Feature.module.css"
-import { Container, Col, Row } from "reactstrap";
+import { Col, Row } from "reactstrap";
 
 import TextButton from "../../../../components/Text-Button/Text-Button";
 import Frame from "../../../../components/Frame/Frame";

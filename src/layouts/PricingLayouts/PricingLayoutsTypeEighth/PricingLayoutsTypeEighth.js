@@ -1,6 +1,5 @@
 import { Row, Col, Container} from "reactstrap";
 import React, {Component} from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
 import { Fade } from "react-awesome-reveal";
 import classes from "./PricingLayoutsTypeEighth.module.css";
@@ -10,7 +9,6 @@ import BaseSwitch from "../../../components/Base-Switcher/Base-Switcher";
 
 const titleText = `Pricing Options`;
 const descriptionText = `Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!`;
-
 
 const data = {
     usage:[

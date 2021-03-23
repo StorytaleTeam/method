@@ -65,7 +65,8 @@
     border-color: #1D2C6B;
 }
 
-.dark .total {
+.dark .total,
+.dark .hide {
     color: #ffffff;
 }
 

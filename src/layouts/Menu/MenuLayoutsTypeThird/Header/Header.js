@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css"
 import {Nav, Navbar, Form, FormControl} from "react-bootstrap";
-import {MethodLogotype, FavoriteBorder, User, Cart, UserBordered} from "../../../../components/Icons/Icons";
-import Button from "../../../../components/Button/Button";
+import {MethodLogotype, Cart, UserBordered} from "../../../../components/Icons/Icons";
 import Socials from "../Socials/Socials";
 import {Input, Badge, Dropdown, List, Collapse} from 'antd';
 import {Col, Container, Row} from "reactstrap";

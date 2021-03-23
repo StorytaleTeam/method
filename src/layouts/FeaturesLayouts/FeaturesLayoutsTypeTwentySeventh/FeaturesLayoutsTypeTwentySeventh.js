@@ -3,8 +3,6 @@ import classes from "./FeaturesLayoutsTypeTwentySeventh.module.css"
 import Feature from "./Feature/Feature";
 
 import { Container, Col, Row } from "reactstrap";
-
-// import { Bookmark, Email, Home, Basket, Extension, Group } from "../../../components/Icons/Icons";
 import { Fade } from "react-awesome-reveal";
 
 const title = "The professional publishing platform. Method.";
@@ -28,7 +26,6 @@ function FeaturesLayoutsTypeTwentySeventh(props) {
               </Col>
             </Row>
 
-             
             <Fade top triggerOnce={true} delay={50}>
             <Row className={classes.contentRow}>
               <Col lg={3} sm={6} className={classes.item}>

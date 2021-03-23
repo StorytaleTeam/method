@@ -19,24 +19,24 @@ function FeaturesLayoutsTypeThirtieth (props) {
 
             <Row>
               <Col lg={5} md={5} className={classes.leftColumn}>
-              <Fade top triggerOnce={true}>
-                <h1>{title}</h1>
-                <p className={classes.description}>{description}</p>
+                <Fade top triggerOnce={true}>
+                  <h1>{title}</h1>
+                  <p className={classes.description}>{description}</p>
                 </Fade>
               </Col>
 
               <Col lg={{ size: 6, offset: 1 }} md={{ size: 6, offset: 1 }} className={classes.rightColumn}>
-              <Fade top triggerOnce={true} delay={50}>
-              {props.dark === true ?
-                      <>
-                        <img className={classes.image}  src={mockupDark} />
-                      </>
-                      :
-                      <>
-                        <img className={classes.image} src={mockup} />
-                      </>
-                    }
-                    </Fade>
+                  <Fade top triggerOnce={true} delay={50}>
+                      {props.dark === true ?
+                          <>
+                            <img className={classes.image}  src={mockupDark} />
+                          </>
+                          :
+                          <>
+                            <img className={classes.image} src={mockup} />
+                          </>
+                      }
+                  </Fade>
               </Col>
             </Row>
           </Container>

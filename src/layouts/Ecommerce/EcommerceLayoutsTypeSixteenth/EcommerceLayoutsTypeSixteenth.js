@@ -5,7 +5,6 @@ import { Fade } from "react-awesome-reveal";
 import classes from "./EcommerceLayoutsTypeSixteenth.module.css";
 import { Table } from 'antd';
 import Nav from "./Nav/Nav";
-import Ecommerce from "../EcommerceLayoutsTypeTenth/Ecommerce/EcommerceTypeTenth";
 const title = "Orders";
 
 const columns = [

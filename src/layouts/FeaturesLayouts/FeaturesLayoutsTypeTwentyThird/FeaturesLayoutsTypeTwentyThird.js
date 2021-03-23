@@ -8,7 +8,6 @@ import placeholder from '../../../img/placeholder-02.png';
 import placeholderDark from '../../../img/placeholder-02-dark.png';
 import Button from "../../../components/Button/Button"
 
-
 const title = "Method and the tools you love";
 const description = "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!";
 

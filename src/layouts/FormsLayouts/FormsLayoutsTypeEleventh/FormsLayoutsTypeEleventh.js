@@ -1,5 +1,4 @@
 import React from "react";
-
 import Form from "./SimpleForm/SimpleForm";
 import { Container, Col, Row } from "reactstrap";
 import { Google, Twitter } from "../../../components/Icons/Icons";
@@ -7,12 +6,9 @@ import { Google, Twitter } from "../../../components/Icons/Icons";
 import ButtonSocial from "../../../components/Button-Social/ButtonSocial";
 import classes from "./FormsLayoutsTypeEleventh.module.css"
 import { Fade } from "react-awesome-reveal";
-
 const title = "Account"
 
-
 function FormsLayoutsTypeEleventh(props) {
-
 
     return (
         <React.Fragment>
@@ -20,7 +16,6 @@ function FormsLayoutsTypeEleventh(props) {
 
                 <div className={classes.gridWrapper}>
                     <Container>
-
                         <Row >
                             <Col lg={{ size: 5}} md={{ size: 7}} className="mx-auto">
                                 <Fade triggerOnce={true}>
@@ -58,11 +53,9 @@ function FormsLayoutsTypeEleventh(props) {
                                     </Row>
                                 </Fade>
                             </Col>
-
                         </Row>
                     </Container>
                 </div>
-
             </section>
         </React.Fragment>
     )
