@@ -5,7 +5,6 @@ import Button from "../../../components/Button/Button";
 import classes from "./PortfolioLayoutsTypeEleventh.module.css"
 import { Fade } from "react-awesome-reveal";
 
-
 function PortfolioLayoutsTypeEleventh(props) {
 
     return (

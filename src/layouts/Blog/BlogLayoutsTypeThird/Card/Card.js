@@ -18,8 +18,8 @@ const Card = (props) => {
 
             <div className={classes.textContent}>
                 <div className={classes.header}>
-                    <span>{string}</span>
-                    <span>{reading} min read</span>
+                    <div>{string}</div>
+                    <div>{reading} min read</div>
                 </div>
                 <a className={classes.link} href={link}>
                     <h3 className={classes.title}>

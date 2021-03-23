@@ -208,7 +208,7 @@ import FormsLayoutsTypeTwelfth from "./layouts/FormsLayouts/FormsLayoutsTypeTwel
 function App() {
     return (
         <div>
-            <TestimonialsLayoutsTypeTwelfth dark={true}/>
+            <BlogLayoutsTypeNinth/>
         </div>
     );
 }

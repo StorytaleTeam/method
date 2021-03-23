@@ -33,10 +33,12 @@
 }
 
 .header {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 20px;
 }
 
-.header span {
+.header div {
     position: relative;
     padding-right: 20px;
 
@@ -47,7 +49,7 @@
     color: rgba(62, 68, 98, 0.5);
 }
 
-.header span:first-of-type:before {
+.header div:first-of-type:before {
     position: absolute;
     right: 7px;
     top: 7px;
@@ -73,11 +75,11 @@
 
 /*dark*/
 
-.dark .header span {
+.dark .header div {
     color: #ffffff;
 }
 
-.dark .header span:first-of-type:before {
+.dark .header div:first-of-type:before {
     background-color: #ffffff;
 }
 

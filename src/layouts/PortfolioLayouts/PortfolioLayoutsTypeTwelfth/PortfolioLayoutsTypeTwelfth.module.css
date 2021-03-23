@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.item > div {
+    width: 100%;
+}
+
 @media screen and (max-width: 991px) {
     .item {
         margin-bottom: 50px;

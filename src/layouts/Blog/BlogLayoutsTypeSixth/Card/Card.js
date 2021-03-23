@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Card.module.css"
-import { Fade } from "react-awesome-reveal";
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -20,8 +19,8 @@ const Card = (props) => {
 
             <div className={classes.textContent}>
                 <div className={classes.header}>
-                    <span>{string}</span>
-                    <span>{reading} min read</span>
+                    <div>{string}</div>
+                    <div>{reading} min read</div>
                 </div>
                 <a className={classes.link} href={link}>
                     <h3 className={classes.title}>
