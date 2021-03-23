@@ -202,13 +202,78 @@ import PortfolioLayoutsTypeThird from "./layouts/PortfolioLayouts/PortfolioLayou
 import FormsLayoutsTypeEighth from "./layouts/FormsLayouts/FormsLayoutsTypeEighth/FormsLayoutsTypeEighth";
 import FormsLayoutsTypeEleventh from "./layouts/FormsLayouts/FormsLayoutsTypeEleventh/FormsLayoutsTypeEleventh";
 import FormsLayoutsTypeTwelfth from "./layouts/FormsLayouts/FormsLayoutsTypeTwelfth/FormsLayoutsTypeTwelfth";
+import TestimonialsLayoutTypeThirteenth
+    from "./layouts/TestimonialsLayouts/TestimonialsLayoutTypeThirteenth/TestimonialsLayoutTypeThirteenth";
 
 /*example*/
 
 function App() {
     return (
         <div>
+            <HeroLayoutsTypeEleventh/>
+
+            <FeaturesLayoutsTypeTwentySecond/>
+            <FeaturesLayoutsTypeTwentyThird/>
+            <FeaturesLayoutsTypeTwentyFourth/>
+            <FeaturesLayoutsTypeTwentyFifth/>
+            <FeaturesLayoutsTypeTwentySixth/>
+            <FeaturesLayoutsTypeTwentySeventh/>
+            <FeaturesLayoutsTypeTwentyEighth/>
+            <FeaturesLayoutsTypeTwentyNinth/>
+            <FeaturesLayoutsTypeThirtieth/>
+            <FeaturesLayoutsTypeThirtyFirst/>
+            <FeaturesLayoutsTypeThirtySecond/>
+
+            <CTALayoutsTypeThirteenth/>
+
+            <PricingLayoutsTypeSeventh/>
+            <PricingLayoutsTypeEighth/>
+
+            <StatsLayoutsTypeEighth/>
+            <StatsLayoutsTypeNinth/>
+            <StatsLayoutsTypeTenth/>
+            <StatsLayoutsTypeEleventh/>
+            <StatsLayoutsTypeTwelfth/>
+            <StatsLayoutsTypeThirteenth/>
+
+            <EcommerceLayoutsTypeFifteenth/>
+            <EcommerceLayoutsTypeSixteenth/>
+            <EcommerceLayoutsTypeSeventeenth/>
+            <EcommerceLayoutsTypeEighteenth/>
+            <EcommerceLayoutsTypeNineteenth/>
+            <EcommerceLayoutsTypeTwentieth/>
+            <EcommerceLayoutsTypeTwentyFirst/>
+
+            <FormsLayoutsTypeEleventh/>
+            <FormsLayoutsTypeTwelfth/>
+            <FormsLayoutsTypeThirteenth/>
+
+            <MenuLayoutsTypeSecond/>
+            <MenuLayoutsTypeThird/>
+            <MenuLayoutsTypeFourth/>
+            <MenuLayoutsTypeFifth/>
+            <MenuLayoutsTypeSeventh/>
+
+            <FootersLayoutsTypeEleventh/>
+            <FootersLayoutsTypeTwelfth/>
+            <PageNotFound/>
+
+            <TestimonialsLayoutsTypeTwelfth/>
+            <TestimonialsLayoutTypeThirteenth/>
+
+            <PortfolioLayoutsTypeEleventh/>
+            <PortfolioLayoutsTypeTwelfth/>
+
+            <BlogLayoutsTypeFirst/>
+            <BlogLayoutsTypeSecond/>
+            <BlogLayoutsTypeThird/>
+            <BlogLayoutsTypeFourth/>
+            <BlogLayoutsTypeFifth/>
+            <BlogLayoutsTypeSixth/>
+            <BlogLayoutsTypeSeventh/>
+            <BlogLayoutsTypeEighth/>
             <BlogLayoutsTypeNinth/>
+
         </div>
     );
 }
