@@ -24,6 +24,9 @@ const Product = (props) => {
                         increase={() => props.increase(props.index)}
                         classes="big"
                     />
+                    <div className={classes.hide}>
+                        &#36;{(props.quantity * props.priceForOne).toFixed(2)}
+                    </div>
                 </div>
                 <div className={classes.right}>
                     <span className={classes.close} onClick={() => props.onDelete(props.index)}>

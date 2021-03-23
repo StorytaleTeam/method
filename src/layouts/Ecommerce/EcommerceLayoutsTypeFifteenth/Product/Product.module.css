@@ -17,6 +17,10 @@
     border-bottom: 2px solid #EFF2F6;
 }
 
+.hide {
+    display: none;
+}
+
 .title {}
 
 .cover {
@@ -87,6 +91,33 @@
 }
 
 @media screen and (max-width: 575px) {
+    .description {
+        padding-bottom: 8px !important;
+    }
+    .hide {
+        display: block;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: -0.55px;
+        color: #18214D;
+    }
+    .total {
+        display: none;
+    }
+    .wrapper {
+        grid-template-columns: 110px auto;
+        grid-gap: 20px;
+    }
+    .center, .right {
+        grid-column: 2/-1;
+        grid-row: 1;
+    }
+    .close {
+        margin-top: -20px;
+    }
     .wrapper {
         grid-template-columns: 110px auto 95px;
     }

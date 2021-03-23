@@ -55,13 +55,13 @@ class EcommerceLayoutsTypeTwentyFirst extends Component {
                                     />
                                 </Fade>
                             </Col>
-                            <Col lg={5} className={classes.rightColumn}>
-                                <Fade down triggerOnce={true} delay={50}>
+                            <Col lg={7} className={classes.rightColumn}>
+                                <div className={classes.swiperOverflow}>
                                     <Slider
                                         array={pictures}
                                         dark={this.props.dark ? true : false}
                                     />
-                                </Fade>
+                                </div>
                             </Col>
                         </Row>
 

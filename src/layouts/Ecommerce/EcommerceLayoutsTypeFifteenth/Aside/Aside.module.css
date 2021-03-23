@@ -1,4 +1,6 @@
-.aside {}
+.aside {
+    padding-left: 40px;
+}
 
 .aside a[class*="Button"] {
     margin-top: 25px;
@@ -25,6 +27,8 @@
     display: grid;
     row-gap: 25px;
     border: 1px solid #DFE4EA;
+
+    border-radius: 8px;
 }
 
 .top, .middle, .bottom {}
@@ -32,6 +36,9 @@
 .middle {
     padding-top: 15px;
     padding-bottom: 5px;
+
+    border-top: 1px solid #DFE4EA;
+    border-bottom: 1px solid #DFE4EA;
 }
 
 .total {

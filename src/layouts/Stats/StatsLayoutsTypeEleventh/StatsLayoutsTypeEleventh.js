@@ -64,6 +64,11 @@ const optionsBar = {
             }
         }
     },
+    plugins: {
+        datalabels: {
+            display: false,
+        }
+    }
 }
 
 const data = {
@@ -134,6 +139,11 @@ const options = {
                 }
             ],
         },
+        plugins: {
+            datalabels: {
+                display: false,
+            }
+        }
 }
 
 

@@ -4,6 +4,8 @@ import React, { Component } from "react";
 import { Fade } from "react-awesome-reveal";
 import classes from "./EcommerceLayoutsTypeSixteenth.module.css";
 import { Table } from 'antd';
+import Nav from "./Nav/Nav";
+import Ecommerce from "../EcommerceLayoutsTypeTenth/Ecommerce/EcommerceTypeTenth";
 const title = "Orders";
 
 const columns = [
@@ -90,20 +92,7 @@ class EcommerceLayoutsTypeSixteenth extends Component {
                             <Row>
                                 <Col lg={2} md={2}>
                                     <Fade down triggerOnce={true}>
-                                        <ul className={classes.list}>
-                                            <li>
-                                                <a className={classes.link} href="#">Orders</a>
-                                            </li>
-                                            <li>
-                                                <a className={classes.link} href="#">Settings</a>
-                                            </li>
-                                            <li>
-                                                <a className={classes.link} href="#">Address</a>
-                                            </li>
-                                            <li>
-                                                <a className={classes.link} href="#">Logout</a>
-                                            </li>
-                                        </ul>
+                                        <Nav dark={this.props.dark ? true : false} />
                                     </Fade>
                                 </Col>
                                 <Col lg={9} md={9}>

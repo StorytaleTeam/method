@@ -3,7 +3,6 @@ import React, {Component} from "react";
 import {Fade} from "react-awesome-reveal";
 import classes from "./StatsLayoutsTypeThirteenth.module.css"
 import { Chart } from "react-google-charts";
-import {v4 as uuidv4} from "uuid";
 import Tabs from "../../../components/Tabs/Tabs";
 
 const title = "Country Statistics";
@@ -76,7 +75,7 @@ class StatsLayoutsTypeThirteenth extends Component {
                                         <div className="chart">
                                             <Chart
                                                 width={'100%'}
-                                                height={'70%'}
+                                                height={'30%'}
                                                 chartType="GeoChart"
                                                 data={this.state.data[this.state.activePeriod]}
                                                 options={{

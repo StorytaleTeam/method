@@ -3,6 +3,7 @@ import { Container, Col, Row } from "reactstrap";
 
 import SimpleForm from "./SimpleForm/SimpleForm";
 import PasswordForm from "./PasswordForm/PasswordForm";
+import Nav from "./Nav/Nav";
 
 import { Fade } from "react-awesome-reveal";
 import classes from "./EcommerceLayoutsTypeEighteenth.module.css"
@@ -20,7 +21,7 @@ class EcommerceLayoutsTypeEighteenth extends Component {
                     <Container>
                         <Row className={classes.headerRow}>
                             <Col lg={2} md={2}>
-
+                                <Nav dark={this.props.dark ? true : false} />
                             </Col>
                             <Col lg={9} md={9}>
                                 <Fade down delay={50} triggerOnce={true}>

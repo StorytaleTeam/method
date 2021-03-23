@@ -5,6 +5,12 @@
 
 .ecommerce .more {
     color: #345DEE;
+    text-decoration: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.ecommerce .more:hover {
+    color: #6383f2;
 }
 
 .ecommerce div[class*="ant-table-container"] table>thead>tr:first-child th:first-child, .ecommerce tbody[class*="ant-table-tbody"]>tr>td:first-child {
@@ -53,26 +59,6 @@
     line-height: 165%;
     letter-spacing: -0.2px;
     color: rgba(24, 33, 77, 0.5);
-}
-
-.list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.list .link {
-    display: block;
-    padding-bottom: 20px !important;
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 125%;
-
-    letter-spacing: -0.4px;
-    color: #18214D;
-    text-decoration: none;
 }
 
 /*dark*/

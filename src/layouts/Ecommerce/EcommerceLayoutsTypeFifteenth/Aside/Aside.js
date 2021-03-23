@@ -10,6 +10,9 @@ const Aside = (props) => {
     return (
         <div className={`${classes.aside}  ${(props.dark) ? `dark ${classes.dark}` : ''}`}>
             <div className={classes.wrapper}>
+                <div className={classes.top}>
+                    <h3>Order summary</h3>
+                </div>
                 <div className={classes.middle}>
                     <div className={classes.item}>
                         <p>Subtotal</p>
@@ -35,6 +38,7 @@ const Aside = (props) => {
                         classes={"primary big simple w-100"}
                         value="Continue"
                     />
+                    <p className={classes.hint}>Create screens directly in Method or add your images from Sketch or Figma. </p>
                 </div>
             </div>
         </div>

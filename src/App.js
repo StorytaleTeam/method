@@ -186,13 +186,26 @@ import StatsLayoutsTypeTenth from "./layouts/Stats/StatsLayoutsTypeTenth/StatsLa
 import StatsLayoutsTypeEleventh from "./layouts/Stats/StatsLayoutsTypeEleventh/StatsLayoutsTypeEleventh";
 import StatsLayoutsTypeTwelfth from "./layouts/Stats/StatsLayoutsTypeTwelfth/StatsLayoutsTypeTwelfth";
 import StatsLayoutsTypeThirteenth from "./layouts/Stats/StatsLayoutsTypeThirteenth/StatsLayoutsTypeThirteenth";
+import StatsLayoutsTypeFirst from "./layouts/Stats/StatsLayoutsTypeFirst/StatsLayoutsTypeFirst";
+import EcommerceLayoutsTypeEleventh
+    from "./layouts/Ecommerce/EcommerceLayoutsTypeEleventh/EcommerceLayoutsTypeEleventh";
+import TestimonialTypeFifth
+    from "./layouts/TestimonialsLayouts/TestimonialsLayoutsTypeFifth/Testimonial/TestimonialTypeFifth";
+import TestimonialsLayoutsTypeFirst
+    from "./layouts/TestimonialsLayouts/TestimonialsLayoutsTypeFirst/TestimonialsLayoutsTypeFirst";
+import PortfolioLayoutsTypeSeventh
+    from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeSeventh/PortfolioLayoutsTypeSeventh";
+import PortfolioLayoutsTypeFirst from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeFirst/PortfolioLayoutsTypeFirst";
+import PortfolioLayoutsTypeSecond
+    from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeSecond/PortfolioLayoutsTypeSecond";
+import PortfolioLayoutsTypeThird from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeThird/PortfolioLayoutsTypeThird";
 
 /*example*/
 
 function App() {
     return (
-        <div >
-            <StatsLayoutsTypeThirteenth/>
+        <div>
+           <EcommerceLayoutsTypeTwentyFirst/>
         </div>
     );
 }

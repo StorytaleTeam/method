@@ -66,6 +66,18 @@ class ScatterChart extends Component {
                 <Scatter
                     key={uuidv4()}
                     data={data.data}
+                    options={{
+                        legend: {
+                            display: true,
+                            position: "bottom",
+                            align: 'start',
+                            labels: {
+                                padding: 30,
+                                boxWidth: 8,
+                                usePointStyle: true,
+                            }
+                        }
+                    }}
                 />
             </div>
         )

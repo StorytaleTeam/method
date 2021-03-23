@@ -4,6 +4,7 @@ import {Fade} from "react-awesome-reveal";
 import classes from "./StatsLayoutsTypeTenth.module.css"
 
 import {Doughnut, Pie} from 'react-chartjs-2'
+import 'chartjs-plugin-datalabels';
 
 const title = "Combo chart";
 const description = "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!";
@@ -115,6 +116,11 @@ class StatsLayoutsTypeTenth extends Component {
                                                                 }
                                                             }
                                                         },
+                                                        plugins: {
+                                                            datalabels: {
+                                                                display: false,
+                                                            }
+                                                        }
                                                     }}
                                                 />
                                             </div>
@@ -153,6 +159,25 @@ class StatsLayoutsTypeTenth extends Component {
                                                                     let percentage = Math.floor(((currentValue/total) * 100)+0.5);
 
                                                                     return percentage + "%";
+                                                                }
+                                                            }
+                                                        },
+                                                        plugins: {
+                                                            datalabels: {
+                                                                formatter: (value, ctx) => {
+                                                                    let sum = 0;
+                                                                    let dataArr = ctx.chart.data.datasets[0].data;
+                                                                    dataArr.map(data => {
+                                                                        sum += data;
+                                                                    });
+                                                                    let percentage = (value*100 / sum).toFixed(0)+"%";
+                                                                    return percentage;
+                                                                },
+                                                                color: '#fff',
+                                                                font: {
+                                                                    weight: 'bold',
+                                                                    size: 16,
+                                                                    lineHeight: 19,
                                                                 }
                                                             }
                                                         }

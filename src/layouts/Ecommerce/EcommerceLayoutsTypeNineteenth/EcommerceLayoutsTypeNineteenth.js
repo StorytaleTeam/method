@@ -6,6 +6,7 @@ import Card from "./Card/Card";
 
 import { Fade } from "react-awesome-reveal";
 import classes from "./EcommerceLayoutsTypeNineteenth.module.css"
+import Nav from "../EcommerceLayoutsTypeEighteenth/Nav/Nav";
 
 const title = "Delivery address";
 const secondTitle = "New Address";
@@ -89,7 +90,7 @@ render() {
                 <Container>
                     <Row className={classes.headerRow}>
                         <Col lg={2} md={2}>
-
+                            <Nav dark={this.props.dark ? true : false} />
                         </Col>
                         <Col lg={9} md={9}>
                             <Fade down delay={100} triggerOnce={true}>

@@ -8,6 +8,7 @@ import Product from "./Product/Product";
 import Aside from "./Aside/Aside";
 
 import placeholder from "../../../img/placeholder-gray.png";
+import Nav from "./Nav/Nav";
 
 class EcommerceLayoutsTypeSeventeenth extends Component {
 
@@ -100,7 +101,7 @@ class EcommerceLayoutsTypeSeventeenth extends Component {
                     <Container>
                         <Row className={classes.headerRow}>
                             <Col lg={2} md={2}>
-
+                                <Nav dark={this.props.dark ? true : false} />
                             </Col>
                             <Col lg={9} md={9}>
                                 <div className={classes.orderInfo}>
