@@ -211,7 +211,6 @@ function App() {
     return (
         <div>
             <HeroLayoutsTypeEleventh/>
-
             <FeaturesLayoutsTypeTwentySecond/>
             <FeaturesLayoutsTypeTwentyThird/>
             <FeaturesLayoutsTypeTwentyFourth/>
@@ -223,19 +222,15 @@ function App() {
             <FeaturesLayoutsTypeThirtieth/>
             <FeaturesLayoutsTypeThirtyFirst/>
             <FeaturesLayoutsTypeThirtySecond/>
-
             <CTALayoutsTypeThirteenth/>
-
             <PricingLayoutsTypeSeventh/>
             <PricingLayoutsTypeEighth/>
-
             <StatsLayoutsTypeEighth/>
             <StatsLayoutsTypeNinth/>
             <StatsLayoutsTypeTenth/>
             <StatsLayoutsTypeEleventh/>
             <StatsLayoutsTypeTwelfth/>
             <StatsLayoutsTypeThirteenth/>
-
             <EcommerceLayoutsTypeFifteenth/>
             <EcommerceLayoutsTypeSixteenth/>
             <EcommerceLayoutsTypeSeventeenth/>
@@ -243,11 +238,9 @@ function App() {
             <EcommerceLayoutsTypeNineteenth/>
             <EcommerceLayoutsTypeTwentieth/>
             <EcommerceLayoutsTypeTwentyFirst/>
-
             <FormsLayoutsTypeEleventh/>
             <FormsLayoutsTypeTwelfth/>
             <FormsLayoutsTypeThirteenth/>
-
             <MenuLayoutsTypeSecond/>
             <MenuLayoutsTypeThird/>
             <MenuLayoutsTypeFourth/>

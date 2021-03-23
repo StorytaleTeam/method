@@ -80,7 +80,7 @@ class PortfolioLayoutsTypeTwelfth extends Component {
                 <Col lg="6" md="6" className={classes.item} key={index}>
                     <Fade down delay={`${index}1`} triggerOnce={true}>
                         <Portfolio
-                            custom={index % 2 != 0 && true}
+                            custom={index % 2 == 0 && true}
                             name={item.name}
                             link={item.link}
                         >
