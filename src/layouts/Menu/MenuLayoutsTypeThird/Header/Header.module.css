@@ -159,6 +159,7 @@
     padding-bottom: 50px;
 
     width: 100%;
+    background-color: #FFFFFF;
 }
 
 .header div[class*="ant-collapse-content-box"] {

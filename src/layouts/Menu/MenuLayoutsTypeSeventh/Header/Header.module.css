@@ -137,7 +137,8 @@ button[class*="custom-toggler"] {
     fill: #ffffff !important;
 }
 
-.dark.header .active svg path {
+.dark.header .active svg path,
+.dark.header svg path {
     fill: #ffffff;
 }
 

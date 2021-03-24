@@ -24,8 +24,6 @@
 }
 @media screen and (max-width: 768px) {
      .col {
-        min-width: 20%;
-        max-width: 25%;
         margin-right: 0;
     }
     .col svg {
@@ -35,25 +33,18 @@
 
 @media screen and (max-width: 575px) {
   .row {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr;
-
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px
   }
+    .col {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 450px) {
 
     .col svg {
         width: 80%;
-    }
-    .col {
-        max-width: 33.3%;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        margin-right: 0;
-    }
-    .col:nth-last-of-type(1) {
-        margin-right: auto;
-        margin-left: auto;
     }
 }

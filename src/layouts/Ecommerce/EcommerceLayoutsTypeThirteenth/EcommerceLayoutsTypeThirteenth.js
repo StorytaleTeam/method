@@ -371,7 +371,7 @@ class EcommerceLayoutsTypeThirteenth extends Component {
                             <Col lg="3" md="3" onClick={this.onListClickHandler}>
                                 <Fade delay={100} triggerOnce={true}>
                                     <Collapse bordered={false} defaultActiveKey={['1']} onClick={this.onListClickHandler} className={this.props.dark ? 'dark' : null}>
-                                        <Panel header="Women" key="1">
+                                        <Panel header="Women" key="1" showArrow={false}>
                                             <List
                                                 size="small"
                                                 dataSource={dataWoman}
@@ -384,7 +384,7 @@ class EcommerceLayoutsTypeThirteenth extends Component {
                                                 }
                                             />
                                         </Panel>
-                                        <Panel header="Man" key="2">
+                                        <Panel header="Man" key="2" showArrow={false}>
                                             <List
                                                 size="small"
                                                 dataSource={dataMan}
@@ -397,7 +397,7 @@ class EcommerceLayoutsTypeThirteenth extends Component {
                                                 }
                                             />
                                         </Panel>
-                                        <Panel header="Kids" key="3">
+                                        <Panel header="Kids" key="3" showArrow={false}>
                                             <List
                                                 size="small"
                                                 dataSource={dataKids}
@@ -410,7 +410,7 @@ class EcommerceLayoutsTypeThirteenth extends Component {
                                                 }
                                             />
                                         </Panel>
-                                        <Panel header="Home" key="4">
+                                        <Panel header="Home" key="4" showArrow={false}>
                                             <List
                                                 size="small"
                                                 dataSource={dataHome}
