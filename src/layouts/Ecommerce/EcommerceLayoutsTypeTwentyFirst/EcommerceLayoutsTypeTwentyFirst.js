@@ -64,7 +64,6 @@ class EcommerceLayoutsTypeTwentyFirst extends Component {
                                 </div>
                             </Col>
                         </Row>
-
                     </Container>
                 </div>
             </section>

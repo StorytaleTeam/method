@@ -41,5 +41,6 @@
     }
     .buttonColumn {
         display: flex !important;
+        align-items: flex-start !important;
     }
 }

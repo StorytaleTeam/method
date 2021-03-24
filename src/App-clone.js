@@ -207,6 +207,20 @@ import TestimonialsLayoutsTypeNinth
     from "./layouts/TestimonialsLayouts/TestimonialsLayoutsTypeNinth/TestimonialsLayoutsTypeNinth";
 import TestimonialsLayoutsTypeTenth
     from "./layouts/TestimonialsLayouts/TestimonialsLayoutsTypeTenth/TestimonialsLayoutsTypeTenth";
+import PortfolioLayoutsTypeFirst from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeFirst/PortfolioLayoutsTypeFirst";
+import PortfolioLayoutsTypeSecond
+    from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeSecond/PortfolioLayoutsTypeSecond";
+import PortfolioLayoutsTypeThird from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeThird/PortfolioLayoutsTypeThird";
+import PortfolioLayoutsTypeFourth
+    from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeFourth/PortfolioLayoutsTypeFourth";
+import PortfolioLayoutsTypeFifth from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeFifth/PortfolioLayoutsTypeFifth";
+import PortfolioLayoutsTypeSixth from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeSixth/PortfolioLayoutsTypeSixth";
+import PortfolioLayoutsTypeSeventh
+    from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeSeventh/PortfolioLayoutsTypeSeventh";
+import PortfolioLayoutsTypeEighth
+    from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeEighth/PortfolioLayoutsTypeEighth";
+import PortfolioLayoutsTypeNinth from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeNinth/PortfolioLayoutsTypeNinth";
+import PortfolioLayoutsTypeTenth from "./layouts/PortfolioLayouts/PortfolioLayoutsTypeTenth/PortfolioLayoutsTypeTenth";
 
 class AppClone extends Component {
     state={
@@ -451,15 +465,31 @@ class AppClone extends Component {
                 {/*<TestimonialsLayoutsTypeTwelfth dark={this.state.isDark}/>*/}
                 {/*<TestimonialsLayoutTypeThirteenth dark={this.state.isDark}/>*/}
 
-                <BlogLayoutsTypeFirst dark={this.state.isDark}/>
-                <BlogLayoutsTypeSecond dark={this.state.isDark}/>
-                <BlogLayoutsTypeThird dark={this.state.isDark}/>
-                <BlogLayoutsTypeFourth dark={this.state.isDark}/>
-                <BlogLayoutsTypeFifth dark={this.state.isDark}/>
-                <BlogLayoutsTypeSixth dark={this.state.isDark}/>
-                <BlogLayoutsTypeSeventh dark={this.state.isDark}/>
-                <BlogLayoutsTypeEighth dark={this.state.isDark}/>
-                <BlogLayoutsTypeNinth dark={this.state.isDark}/>
+                {/*<BlogLayoutsTypeFirst dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeSecond dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeThird dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeFourth dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeFifth dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeSixth dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeSeventh dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeEighth dark={this.state.isDark}/>*/}
+                {/*<BlogLayoutsTypeNinth dark={this.state.isDark}/>*/}
+
+                {/*<PortfolioLayoutsTypeFirst  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeSecond  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeThird  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeFourth  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeFifth  dark={this.state.isDark}/>*/}
+
+                {/*<PortfolioLayoutsTypeSixth  dark={this.state.isDark}/>*/}
+                {/*<EcommerceLayoutsTypeTwentyFirst/>*/}
+                {/*<PortfolioLayoutsTypeSeventh  dark={this.state.isDark}/>*/}
+
+                {/*<PortfolioLayoutsTypeEighth  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeNinth  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeTenth  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeEleventh  dark={this.state.isDark}/>*/}
+                {/*<PortfolioLayoutsTypeTwelfth  dark={this.state.isDark}/>*/}
 
             </div>
         )

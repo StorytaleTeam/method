@@ -1,6 +1,5 @@
 import { Row, Col, Container} from "reactstrap";
 import React, {Component} from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
 import Portfolio from "./Portfolio/PortfolioTypeSeventh";
 import placeholder from "../../../img/placeholder-gray.png";

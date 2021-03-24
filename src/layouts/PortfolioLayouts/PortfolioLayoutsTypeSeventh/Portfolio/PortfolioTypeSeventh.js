@@ -21,7 +21,7 @@ const PortfolioTypeSeventh = (props) => {
                     </a>
                     <p className={`normal-text ${classes.description}`}>{props.descr}</p>
                 </Col>
-                <Col className={`col-12 d-flex align-items-start ${classes.buttonColumn} ${classes.col}`}>
+                <Col className={`col-12 ${classes.buttonColumn} ${classes.col}`}>
                     <Button
                         link={true}
                         classes={"primary big right-icon"}

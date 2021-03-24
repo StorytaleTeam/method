@@ -1,6 +1,6 @@
 
 import React, {Component} from "react";
-import "bootstrap/dist/css/bootstrap.css";
+import { Container, Col, Row } from "reactstrap";
 
 import Portfolio from "./Portfolio/PortfolioTypeSixth";
 import placeholderDark from "../../../img/placeholder-gray-dark.png";
@@ -46,6 +46,7 @@ class PortfolioLayoutsTypeSixth extends Component {
                     <Portfolio
                         title={item.title}
                         descr={item.description}
+                        cover={item.picture}
                     >
                         {item.picture ? <img src={item.picture}  width="920" height="500" alt=""/>
                             : <img src={this.props.dark ? placeholderDark : placeholder} width="920" height="500" alt=""/>
@@ -68,17 +69,29 @@ class PortfolioLayoutsTypeSixth extends Component {
 
             <React.Fragment>
                 <section className={`section  ${classes.portfolio} ${(this.props.dark) ?  `dark ${classes.dark}` : ''}`}>
-                    <div className={classes.wrapper}>
-                        <div className={classes.left}>
-                            <div className={classes.first}></div>
-                            <div className={classes.second}>
+                    {/*<div className={classes.wrapper}>*/}
+                    {/*    <div className={classes.left}>*/}
+                    {/*        <div className={classes.first}></div>*/}
+                    {/*        <div className={classes.second}>*/}
+                    {/*            <h2>{title}</h2>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className={classes.right}>*/}
+                    {/*        {this.renderCards()}*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+                    <Container>
+                        <Row>
+                            <Col lg={5} className={classes.leftColumn}>
                                 <h2>{title}</h2>
-                            </div>
-                        </div>
-                        <div className={classes.right}>
-                            {this.renderCards()}
-                        </div>
-                    </div>
+                            </Col>
+                            <Col lg={7} className={classes.rightColumn}>
+                                <div className={classes.swiperOverflow}>
+                                    {this.renderCards()}
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </section>
             </React.Fragment>
         )
