@@ -4,11 +4,22 @@
     grid-template-rows: 380px auto;
     row-gap: 20px;
 }
-
+.bottomLevel {
+    display: flex;
+    justify-content: space-between;
+}
 .custom {
     grid-template-rows: 300px auto;
 }
-
+.arrowLink {
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.arrowLink:hover {
+    opacity: 0.6;
+}
 .portfolio img {
     border-radius: 8px;
     height: auto;

@@ -9,11 +9,12 @@ import classes from "./PortfolioLayoutsTypeTwelfth.module.css"
 import { Fade } from "react-awesome-reveal";
 
 const title = "Latest Awesome Works";
-const strong = "Portfolio";
+const postForView = 1;
 
 class PortfolioLayoutsTypeTwelfth extends Component {
 
     state = {
+        renderPost: postForView ,
         projects: [
             {
                 name: 'Symbol Design Sysytem',
@@ -60,27 +61,18 @@ class PortfolioLayoutsTypeTwelfth extends Component {
         ]
     }
 
-    buttonClickHandler = (event) => {
-        event.preventDefault();
-        event.stopPropagation();
-        const card = this.state.projects;
-        const listItems = card.filter((element) => {
-            if (element.featured == true) {
-                return true
-            }
-        }
-        )
-        this.setState({ renderPost: listItems.length });
-    }
-
     renderCards() {
         const card = this.state.projects;
-        const listItems = card.map((item, index) => {
+        const listItems = card.filter((element, index) => {
+                if (index < this.state.renderPost && element.latest == true) {
+                    return true
+                }
+            }
+        ).map((item, index) => {
             return (
-                <Col lg="6" md="6" className={classes.item} key={index}>
+                <Col lg={12} md={12} className={classes.item} key={index}>
                     <Fade down delay={`${index}1`} triggerOnce={true}>
                         <Portfolio
-                            custom={index % 2 == 0 && true}
                             name={item.name}
                             link={item.link}
                         >
@@ -111,7 +103,6 @@ class PortfolioLayoutsTypeTwelfth extends Component {
                             <Row>
                                 <Col lg="8" md="8" className="mx-auto text-center">
                                     <Fade down triggerOnce={true}>
-                                        <strong className={classes.strong}>{strong}</strong>
                                         <h1 className={classes.title}>{title}</h1>
                                     </Fade>
                                 </Col>

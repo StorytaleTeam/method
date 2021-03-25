@@ -71,79 +71,122 @@ const optionsBar = {
     }
 }
 
+// const data = {
+//     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+//     datasets: [
+//         {
+//             label: "Desktop",
+//             stack: "Stack 0",
+//             backgroundColor: "#345DEE",
+//             data: [10, 20, 30, 40, 50, 60],
+//         },
+//         {
+//             label: "Smartphone",
+//             stack: "Stack 0",
+//             backgroundColor: "#EE3465",
+//             data: [10, 15, 30, 60, 50, 40].map((k) => -k),
+//         },
+//     ],
+// }
+//
+// const options = {
+//         tooltips: {
+//             intersect: false,
+//             callbacks: {
+//                 label: (c) => {
+//                     const value = Number(c.value);
+//                     const positiveOnly = value < 0 ? -value : value;
+//                     let retStr = "";
+//                     if (c.datasetIndex === 0) {
+//                         retStr += `Male: ${positiveOnly.toString()}`;
+//                     } else {
+//                         retStr += `Female: ${positiveOnly.toString()}`;
+//                     }
+//                     return retStr;
+//                 },
+//             },
+//         },
+//         responsive: true,
+//         legend: {
+//             display: true,
+//             position: "bottom",
+//             align: 'start',
+//             labels: {
+//                 padding: 30,
+//                 boxWidth: 8,
+//                 usePointStyle: true,
+//             }
+//         },
+//         scales: {
+//             xAxes: [
+//                 {
+//                     stacked: false,
+//                     ticks: {
+//                         beginAtZero: true,
+//                         callback: (v) => {
+//                             return v < 0 ? -v : v;
+//                         },
+//                     },
+//                 },
+//             ],
+//             yAxes: [
+//                 {
+//                     stacked: true,
+//                     ticks: {
+//                         beginAtZero: true,
+//                     },
+//                     position: "left",
+//                 }
+//             ],
+//         },
+//         plugins: {
+//             datalabels: {
+//                 display: false,
+//             }
+//         }
+// }
+
 const data = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    labels: ['Jun', 'Feb', 'Mar', 'Apr', 'May', ],
     datasets: [
         {
-            label: "Desktop",
-            stack: "Stack 0",
-            backgroundColor: "#345DEE",
-            data: [10, 20, 30, 40, 50, 60],
+            label: 'Desktop',
+            data: [20, 30, 20, 15, 20],
+            backgroundColor: '#345DEE',
         },
         {
-            label: "Smartphone",
-            stack: "Stack 0",
-            backgroundColor: "#EE3465",
-            data: [10, 15, 30, 60, 50, 40].map((k) => -k),
+            label: 'Smartphones',
+            data: [-20, -30, -20, -15, -20],
+            backgroundColor: '#EE3465',
         },
     ],
 }
 
 const options = {
-        tooltips: {
-            intersect: false,
-            callbacks: {
-                label: (c) => {
-                    const value = Number(c.value);
-                    const positiveOnly = value < 0 ? -value : value;
-                    let retStr = "";
-                    if (c.datasetIndex === 0) {
-                        retStr += `Male: ${positiveOnly.toString()}`;
-                    } else {
-                        retStr += `Female: ${positiveOnly.toString()}`;
-                    }
-                    return retStr;
+    scales: {
+        yAxes: [
+            {
+                ticks: {
+                    beginAtZero: true,
                 },
             },
-        },
-        responsive: true,
-        legend: {
-            display: true,
-            position: "bottom",
-            align: 'start',
-            labels: {
-                padding: 30,
-                boxWidth: 8,
-                usePointStyle: true,
-            }
-        },
-        scales: {
-            xAxes: [
-                {
-                    stacked: false,
-                    ticks: {
-                        beginAtZero: true,
-                        callback: (v) => {
-                            return v < 0 ? -v : v;
-                        },
-                    },
-                },
-            ],
-            yAxes: [
-                {
-                    stacked: true,
-                    ticks: {
-                        beginAtZero: true,
-                    },
-                    position: "left",
-                }
-            ],
-        },
-        plugins: {
-            datalabels: {
-                display: false,
-            }
+        ],
+    },
+    legend: {
+        display: true,
+        position: "bottom",
+        align: 'start',
+        labels: {
+            padding: 30,
+            boxWidth: 8,
+            usePointStyle: true,
         }
+    },
+    plugins: {
+        datalabels: {
+            display: false,
+        }
+    }
 }
 
 
@@ -167,7 +210,7 @@ class StatsLayoutsTypeTenth extends Component {
                                         <div className={classes.chartWrapper}>
                                             <div className="chart">
                                                 <h2 className={classes.title}>Аge users</h2>
-                                                <HorizontalBar data={data} options={options} />
+                                                <Bar data={data} options={options} />
                                             </div>
                                         </div>
                                     </Fade>
