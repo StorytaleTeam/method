@@ -136,6 +136,7 @@ class  MenuLayoutsTypeSeventh extends Component {
                     <Container>
                         <Header
                             trigger={this.showDrawer}
+                            subtotal={this.findTotal()}
                             dark={this.props.dark ? true : false}
                         />
                     </Container>

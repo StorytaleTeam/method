@@ -225,7 +225,7 @@ const Header = (props) => {
 
                     <div className={classes.search}>
                         <a onClick={props.trigger}>
-                            <Badge dot>
+                            <Badge dot={props.subtotal > 0}>
                                 <Cart/>
                             </Badge>
                         </a>

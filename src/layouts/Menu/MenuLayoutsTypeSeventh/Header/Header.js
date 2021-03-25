@@ -17,7 +17,7 @@ const Header = (props) => {
                         </Navbar.Brand>
                     <div className={classes.search}>
                         <a onClick={props.trigger}>
-                            <Badge dot>
+                            <Badge dot={props.subtotal > 0}>
                                 <Cart/>
                             </Badge>
                         </a>
@@ -39,7 +39,7 @@ const Header = (props) => {
                                 <User/>
                             </a>
                             <a onClick={props.trigger}>
-                                <Badge dot>
+                                <Badge dot={props.subtotal > 0}>
                                     <Cart/>
                                 </Badge>
                             </a>

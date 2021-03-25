@@ -136,6 +136,7 @@ class  MenuLayoutsTypeThird extends Component {
                                 trigger={this.showDrawer}
                                 dark={this.props.dark ? true : false}
                                 count={products.length}
+                                subtotal={this.findTotal()}
                             />
                         </Container>
                         <Container>

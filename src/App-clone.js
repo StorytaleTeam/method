@@ -286,7 +286,7 @@ class AppClone extends Component {
                 {/*<TestimonialsLayoutTypeThirteenth dark={this.state.isDark}/>*/}
 
                 {/*<PortfolioLayoutsTypeEleventh dark={this.state.isDark}/>*/}
-                <PortfolioLayoutsTypeTwelfth dark={this.state.isDark}/>
+                {/*<PortfolioLayoutsTypeTwelfth dark={this.state.isDark}/>*/}
 
                 {/*<BlogLayoutsTypeFirst dark={this.state.isDark}/>*/}
                 {/*<BlogLayoutsTypeSecond dark={this.state.isDark}/>*/}

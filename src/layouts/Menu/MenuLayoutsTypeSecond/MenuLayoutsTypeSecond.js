@@ -154,6 +154,7 @@ class MenuLayoutsTypeSecond extends Component {
                             triggerCart={this.showDrawer}
                             triggerMenu={this.showMenuDrawer}
                             dark={this.props.dark ? true : false}
+                            subtotal={this.findTotal()}
                         />
                     </Container>
                     <Container>
