@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import AppClone from "./App-clone";
 import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-    <AppClone />,
+    <App/>,
   document.getElementById('root')
 );
 

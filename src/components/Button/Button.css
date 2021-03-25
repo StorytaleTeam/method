@@ -31,7 +31,7 @@
 
 .Button.primary {
     background-color: #345DEE;
-    color: #ffffff !important;
+    color: #ffffff ;
 }
 .Button.primary:hover {
     background-color: #6383F2;
